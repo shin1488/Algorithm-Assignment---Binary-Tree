@@ -48,7 +48,6 @@ TreeNode* searchNode(TreeNode* nodeToFind, char val) {
 	if (fit == NULL)
 		fit = searchNode(nodeToFind->rightChild, val);
 	return fit;
-
 }
 
 void nodeLinking(char parentVal, char leftChildVal, char rightChildVal) {
